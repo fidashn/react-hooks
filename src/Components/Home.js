@@ -2,7 +2,10 @@ import React from 'react'
 
 function Home() {
   return (
-    <div>Home</div>
+    <div className='home-container'>
+      <div className="counter"><button></button></div>
+      
+      </div>
   )
 }
 
