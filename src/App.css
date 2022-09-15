@@ -3,3 +3,11 @@
   padding: 0%;
   box-sizing: border-box;
 }
+
+
+.btn {
+  width: 30px;
+  height: 20px;
+  background-color: transparent;
+  border-radius: 10px;
+}
