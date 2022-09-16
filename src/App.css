@@ -11,3 +11,7 @@
   background-color: transparent;
   border-radius: 10px;
 }
+
+.btn:hover{
+  cursor: pointer;
+}
