@@ -5,6 +5,7 @@ function Home() {
     <div className='home-container'>
       <div className="counter">
         <button className='btn'>-</button>
+        
         <button className='btn'>+</button>
         </div>
       
