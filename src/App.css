@@ -12,6 +12,14 @@ height: 50vh;
 border: 2px red solid;
 }
 
+.counter{
+display: flex;
+justify-content:space-around;
+align-items: center;
+width: 100px;
+border: 2px red solid;
+}
+
 
 .btn {
   width: 30px;
