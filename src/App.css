@@ -29,3 +29,11 @@ width: 100px;
 .btn:hover{
   cursor: pointer;
 }
+
+.red{
+  border: 2px red solid;
+}
+
+.green{
+  border: 2px green solid;
+}
