@@ -8,9 +8,9 @@ const [count, setCount] = useState(0);
     <div className='home-container'>
       <h1>Counter</h1>
       <div className="counter">
-        <button className='btn red' onClick={() => setCount(count - 1)}>-</button>
-        <div className='number'>0</div>
-        <button className='btn green' onClick={() => setCount(count + 1)}>+</button>
+        <button className='btn red' onClick={()=> setCount(count - 1)}>-</button>
+        <div className='number'>{count}</div>
+        <button className='btn green' onClick={()=> setCount(count + 1)}>+</button>
         </div>
       
       </div>
