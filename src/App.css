@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
+  background-color: rgb(0, 255, 255); 
+  mix-blend-mode:difference;
 }
 
 .home-container{
@@ -15,6 +17,7 @@ height: 50vh;
 .title{
   color: rgb(0, 255, 255); 
   mix-blend-mode:difference;
+  background-color: transparent;
 }
 
 .counter{
@@ -22,6 +25,7 @@ display: flex;
 justify-content:space-around;
 align-items: center;
 width: 150px;
+background-color: transparent;
 }
 
 
@@ -41,13 +45,19 @@ width: 150px;
 
 .red{
   border: 2px red solid;
+  background-color: transparent;
+   color: rgb(0, 255, 255); 
 }
 
 .green{
   border: 2px green solid;
+  background-color: transparent;
+  color: rgb(0, 255, 255); 
+  mix-blend-mode:difference;
 }
 
 .number{
   color: rgb(99, 211, 237);
   font-size:xx-large;
+  background-color: transparent;
   }
