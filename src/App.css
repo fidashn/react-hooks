@@ -12,6 +12,11 @@ align-items: center;
 height: 50vh;
 }
 
+.title{
+  color: rgb(0, 255, 255); 
+  mix-blend-mode:difference;
+}
+
 .counter{
 display: flex;
 justify-content:space-around;
