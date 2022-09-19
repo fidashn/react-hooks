@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0%;
   box-sizing: border-box;
-  background-color: rgb(214, 206, 122); 
+  background-image: linear-gradient(to right, rgba(255,0,0,0), rgba(255,0,0,1));
   mix-blend-mode:difference;
 }
 
@@ -44,9 +44,10 @@ background-color: transparent;
 }
 
 .red{
-  border: 2px red solid;
+  border: 2px pink solid;
   background-color: transparent;
    color: rgb(0, 255, 255); 
+   mix-blend-mode:difference;
 }
 
 .green{
